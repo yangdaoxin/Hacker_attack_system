@@ -2,6 +2,7 @@
 #include<Windows.h>
 #include<string>
 
+
 using namespace std;
 
 int main(void){
@@ -9,6 +10,7 @@ int main(void){
 	string pwd;
 
 	while(1){
+		system("cls");
 		cout << "ÇëÊäÈëÕËºÅ:";
 		cin >> name;
 		cout << "ÇëÊäÈëÃÜÂë";
@@ -18,9 +20,10 @@ int main(void){
 			break;
 		}else{
 			cout <<"ÓÃ»§Ãû»òÃÜÂë´íÎó"<< endl;
+			system("pause");
 		}
 	}
-
+	system("cls");
 	cout<<"1.ÍøÕ¾404¹¥»÷"<<endl;
 	cout<<"2.ÍøÕ¾´Û¸Ä¹¥»÷"<<endl;
 	cout<<"3.ÍøÕ¾¹¥»÷¼ÇÂ¼"<<endl;
